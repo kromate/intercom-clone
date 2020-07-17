@@ -174,14 +174,14 @@ a{
 
       <form action="" name="submit-to-google-sheet">
         <div class="v123"></div>
-        <!-- <input type="text" placeholder="* Name" name="Product" value='KT' style='visibility: hidden;'> -->
+         <input type="text" placeholder="* Name" name="Product" value='KT' style='visibility: hidden; height:0px; padding:0px'> 
         <input type="text" placeholder="* Name" name="Name" required>
 
         <div class="v123"></div>
         <input type="email" placeholder="* Email" name="Email" required>
 
         <div class="v123"></div>
-        <textarea name="" id="" cols="30" rows="5" name="Message" placeholder="* Message" required></textarea>
+        <textarea id="" name="Message" placeholder="* Message" required></textarea>
 
         <button id="SUB123" class="shrrr">Submit </button>
         <span>Powered By <a href="http://thekrom.tech">Kromtech</a> </span> 
