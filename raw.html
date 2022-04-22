@@ -103,10 +103,17 @@ a{
   }
 
   #b123 {
-    float: right !important;
     position: fixed;
-    bottom: 0;
-    right: 5;
+    bottom: 4px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+    transform-origin: center center;
+    backface-visibility: hidden;
+    overflow: hidden;
+    -webkit-font-smoothing: antialiased;
   }
 
   .body123 {
@@ -128,8 +135,8 @@ a{
     </style>
 </head>
 <body>
-       <div class="body123">
-    <div id="box123" class="box123456789" style="display: none;">
+       <div class="">
+    <div id="body123" class="box123456789" style="display: none;">
       <header>
         <h3 style=" margin: 0;">Hello</h3>
         <p>Please fill out the form below and we will get back to you as soon as possible.</p>
