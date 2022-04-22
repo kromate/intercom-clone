@@ -16,11 +16,11 @@ functionality = function () {
     if (box == 'block') {
         document.getElementById('c123').innerHTML = openIcon
           document.getElementById('box123').style.display = 'none'
-      document.getElementById('box123').style.className = ''
+       document.getElementById('b123').classList.add('animateB123')
     } else {
       document.getElementById('c123').innerHTML = closeIcon
         document.getElementById('box123').style.display = 'block'
-         document.getElementById('box123').style.className = 'animateB123'
+         document.getElementById('b123').classList.remove('animateB123')
     }
 
   })
