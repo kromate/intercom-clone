@@ -7,6 +7,20 @@
     <script src="./intercom.js"></script>
     <title>Document</title>
     <style>
+        @keyframes float {
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+    transform: translatey(0px);
+  }
+  50% {
+    box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+    transform: translatey(-20px);
+  }
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+    transform: translatey(0px);
+  }
+}
          .box123456789 {
     max-width: 300px;
     height: fit-content;
@@ -16,11 +30,14 @@
     border: 1px solid #d0d0d0;
   }
 
-  button {
+  button#b123 {
     background-color: purple;
     cursor: pointer;
     color: white;
     transition: all 3s linear;
+  }
+  button#b123 {
+     animation: float 5s ease-in-out infinite;
   }
 
   header {
