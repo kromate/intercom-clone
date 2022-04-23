@@ -80,23 +80,26 @@
     margin: 5px;
     outline: none;
   }
-
+input[type=text]:hover{
+  box-shadow: 0 0 5pt 0.5pt #D3D3D3;
+}
+input[type=text]:focus {
+  box-shadow: 0 0 5pt 2pt #D3D3D3;
+  outline-width: 0px;
+}
   ::placeholder {
     font-size: larger;
   }
-a{
-  display: inline;
-  text-decoration: none;
-  color: green;
-}
+
 
   button.shrrr {
     border: none;
     outline: none;
     border-radius: 5px;
-    min-height: 42px;
-    padding: 7px 10px ;
+    min-height: 45px;
+    padding: 9px 10px ;
     color: white;
+    margin-top: 1rem;
   }
   button.shrrr:disabled {
     color: white;
@@ -151,9 +154,6 @@ a{
     border-radius: 0px;
     background: #fff;
        }
-       /* #b123{
-           z-index: -1;
-       } */
   }
     </style>
 </head>
