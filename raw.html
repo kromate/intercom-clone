@@ -139,6 +139,11 @@ a{
     overflow: hidden;
     transition: width 200ms ease 0s, height ease 0s, max-height ease 0s;
   }
+  .closebtn{
+      position: absolute;
+      top: 10;
+      left: 10;
+  }
   @media  (max-width: 450px) {
        .box123{
     width: 100%;
@@ -163,7 +168,12 @@ a{
       <header>
         <h3>Company Title</h3>
         <p>Description text goes here</p>
-        
+        <svg width="20" height="20" class="closebtn" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.5 1.5L22.8627 22.5627" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22.8625 1.5L1.49986 22.5627" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+
       </header>
 
       <form action="" name="submit-to-google-sheet">
