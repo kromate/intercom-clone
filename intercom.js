@@ -53,7 +53,7 @@ functionality = function () {
         `
   }
 
-  showForm = function () {
+    showForm = function () {
     form.innerHTML = `
                            <div class="v123"></div>
         <input type="text" placeholder="* Name" name="Product" value='KT' style='display:none;'>
@@ -66,7 +66,6 @@ functionality = function () {
         <textarea name="" id="" cols="30" rows="5" name="Message" placeholder="* Message" required></textarea>
 
         <button id="SUB123" class='shrrr'>Submit</button>
-        <span>Powered By <a href="http://thekrom.tech">Kromtech</a> </span> 
         `
   }
 
