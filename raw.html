@@ -94,8 +94,8 @@
     border: none;
     outline: none;
     border-radius: 5px;
-    min-height: 45px;
-    padding: 9px 10px ;
+    min-height: 50px;
+    padding: 1rem ;
     color: white;
     margin-top: 1rem;
   }
@@ -139,6 +139,7 @@
       top: 24px;
       right: 24px;
       width: 15px;
+      display: none;
   }
   @media  (max-width: 450px) {
        .box123{
@@ -151,6 +152,9 @@
     bottom: 0px;
     border-radius: 0px;
     background: #fff;
+       }
+       .closebtn{
+           display: block;
        }
   }
     </style>
@@ -180,7 +184,7 @@
         <div class="v123"></div>
         <textarea id="" name="Message" placeholder="* Message" rows="8" required></textarea>
 
-        <button id="SUB123" class="shrrr" disabled>Submit </button>
+        <button id="SUB123" class="shrrr">Submit </button>
 
       </form>
 
