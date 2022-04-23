@@ -1,7 +1,8 @@
-const initButton = ({ color, bgColor, scriptURL, openIcon, closeIcon}) => {
+const initButton = ({ color, bgColor, scriptURL, openIcon, closeIcon, title, desc}) => {
   
 
-
+  title = title || 'Company Title';
+  desc = desc || 'Description text goes here'
  scriptURL = scriptURL || 'https://script.google.com/macros/s/AKfycbwNddRBf6fJHnual0bmKRm6ExEHf6520FRv_2t66FO28tUBj4AiZlkr0lk2-p3iDAmf8g/exec';
  color = color || 'rgb(55, 131, 55)';
  bgColor = bgColor || 'darkBlue';
@@ -241,8 +242,8 @@ loaded()
      <div class="body123">
     <div id="box123" class="box123" style="display: none;">
       <header>
-        <h3>Company Title</h3>
-        <p>Description text goes here</p>
+        <h3>${title}</h3>
+        <p>${desc}</p>
         <svg width="20" height="20" class="closebtn" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M1.5 1.5L22.8627 22.5627" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M22.8625 1.5L1.49986 22.5627" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -253,7 +254,7 @@ loaded()
 
       <form action="" name="submit-to-google-sheet">
         <div class="v123"></div>
-         <input type="text" placeholder="* Name" name="Product" value='KT' style='visibility: hidden; height:0px; padding:0px'> 
+         <input type="text" placeholder="* Name" name="${title}" value='KT' style='visibility: hidden; height:0px; padding:0px'> 
         <input type="text" placeholder="* Name" name="Name" required>
 
         <div class="v123"></div>
