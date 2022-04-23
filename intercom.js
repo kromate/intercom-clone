@@ -10,7 +10,11 @@ const closeIcon = `
 
 
 functionality = function () {
-    console.log('helle');
+    document.querySelector('.closebtn').addEventListener('click', () => {
+          document.getElementById('c123').innerHTML = openIcon
+          document.getElementById('box123').style.display = 'none'
+       document.getElementById('b123').classList.add('animateB123')
+    })
   document.getElementById('b123').addEventListener('click', () => {
     box = document.getElementById('box123').style.display
     if (box == 'block') {
