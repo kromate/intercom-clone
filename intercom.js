@@ -1,4 +1,4 @@
-const scriptURL = 'https://script.google.com/macros/s/AKfycbyRYNRZoGfWdRHwf_bZchesJT14y-mU-SAaaRABc7jKMtLFcsY/exec';
+const scriptURL = 'https://script.google.com/macros/s/AKfycbz2WB13PBvrAjg3E3NWVmkYYOJnODIWp4jEETY26ZDHasPbbkfRE8Y0uXE3K70W7XiZGw/exec';
 const color = 'rgb(55, 131, 55)';
 const openIcon = `<rect x="0.900146" y="4.5" width="22.2" height="15" rx="1.5" stroke="currentColor" stroke-width="1.8"/>
 <path d="M22.5 5.25L12.8719 12.1272C12.3503 12.4998 11.6497 12.4998 11.1281 12.1272L1.5 5.25" stroke="currentColor" stroke-width="1.5"/>`
