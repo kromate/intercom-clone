@@ -108,7 +108,7 @@ loaded = function () {
     background-color: purple;
     cursor: pointer;
     color: white;
-    transition: all 3s linear;
+    transition: all .35s linear;
   }
   button.animateB123 {
      animation: float 5s ease-in-out infinite;
