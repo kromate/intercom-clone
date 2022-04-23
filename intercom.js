@@ -1,3 +1,7 @@
+const initButton = () => {
+  
+loaded()
+
 const scriptURL = 'https://script.google.com/macros/s/AKfycbwNddRBf6fJHnual0bmKRm6ExEHf6520FRv_2t66FO28tUBj4AiZlkr0lk2-p3iDAmf8g/exec';
 const color = 'rgb(55, 131, 55)';
 const bgColor = 'darkBlue';
@@ -284,4 +288,4 @@ loaded = function () {
   
 }
 
-document.addEventListener('DOMContentLoaded', loaded)
+}
